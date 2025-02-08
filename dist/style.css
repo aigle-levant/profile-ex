@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+:root {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+  background-color: #0d192b;
+}
+
+a, a:hover, a:active, a:focus, a:visited {
+  text-decoration: none;
+}
+
+.p-1 {
+  padding: 0.75rem;
+}
+
+.p-2 {
+  padding: 1rem;
+}
+
+.p-3 {
+  padding: 2rem;
+}
+
+.p-4 {
+  padding: 2.5rem;
+}
+
+.p-5 {
+  padding: 3rem;
+}
+
+.medium {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.big {
+  font-size: 2rem;
+  font-weight: 650;
+}
+
+.small {
+  font-weight: 200;
+}
+
+#navbar, .list-item {
+  background-color: #0d192b;
+}
+
+.medium, #username {
+  color: #8bacda;
+}
+
+.title, .half-medium, .search-box, .submit-btn, .small,
+.link {
+  color: white;
+}
+
+.search-box {
+  background-color: white;
+}
+
+.card-container {
+  background-color: #14253d;
+}
+
+#footer .text {
+  color: #8bacda;
+}
+#footer .link {
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.--is-centered {
+  justify-content: center;
+  align-items: center;
+}
+
+.--is-full-width {
+  width: 100%;
+}
+
+.--is-rounded {
+  border-radius: 12px;
+}
+
+.--is-circle {
+  border-radius: 50%;
+}
+
+.--is-highlighted {
+  background-color: #2f415b;
+}
+
+.--has-no-border {
+  border: none;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile-Ex | Aigle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="dist/main.css">
+</head>
+<body>
+    <div id="container">
+        <nav id="navbar" class="flex --is-centered --is-full-width">
+            <h2 class="text medium">Profile Explorer</h2>
+        </nav>
+        <main id="main" class="flex flex-column --is-centered">
+            <h1 class="title text big">
+                Look up GitHub profiles <span class="text big --is-highlighted">here</span>!
+            </h1>
+            <form class="search-box" role="search">
+                <input class="search --is-rounded p-2 --has-no-border" type="search" name="search"
+                placeholder="Example: @github-user" autocapitalize="none" spellcheck="false"
+                maxlength="255" autocorrect="off">
+                <button class="btn submit-btn p-2 --has-no-border" title="search" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <div class="card-container m-3 --has-no-border">
+                <a href="#" class="profile-link --is-contains-link" title="Profile Picture with Link.">
+                    <img src="https://images.unsplash.com/photo-1738193026612-4a953a4f4e96?q=80&w=411&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="profile-photo img --is-circle --is-contains-link" alt="Profile picture.">
+                </a>
+                <br>
+                <h2 id="username" class="text medium">
+                    @
+                    <span class="user-text text medium"> </span>
+                    <!--insert github username here-->
+                    belmont
+                </h2>
+                <p class="user-desc p text small">
+                    <!--insert github description here-->
+                    Nihil Novum Sub Sole.
+                </p>
+                <h3 class="text half-medium">Top 3 GitHub repositories</h3>
+                <ul class="list flex flex-column --is-centered">
+                    <li class="list-item bg-dark --is-hovered">
+                        <a href="#" title="GitHub repo." class="repo-link link">
+                            image-maker
+                            <!--insert repository name here-->
+                        </a>
+                    </li>
+                    <li class="list-item bg-dark --is-hovered">
+                        <a href="#" title="GitHub repo." class="repo-link link">
+                            tic-tac-toe
+                            <!--insert repository name here-->
+                        </a>
+                    </li>
+                    <li class="list-item bg-dark --is-hovered">
+                        <a href="#" title="GitHub repo." class="repo-link link">
+                            envee-game
+                            <!--insert repository name here-->
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <footer id="footer" class="flex --is-centered --is-full-width">
+            <p class="p text small">Made by Aigle | Check out my <a href="#" class="p text link">GitHub</a></p>
+        </footer>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>

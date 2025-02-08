@@ -1,0 +1,57 @@
+//import stylesheet
+@use 'style';
+
+//title
+#main
+{
+    padding: 1rem;
+    .title
+    {
+        padding-bottom: 1rem;
+    }
+}
+
+//search-bar
+.search-box
+{
+    margin-bottom: 4rem;
+    .btn
+    {
+        background-color: rgb(201, 189, 189);
+        &.hover, &.focus
+        {
+            background-color: style.$line-dark;
+        }
+    }
+}
+
+//profile-card
+.card-container
+{
+    padding: 3rem 5rem;
+    .img
+    {
+        width: 200px;
+        height: 200px;
+        margin-left: 4rem;
+    }
+    #username, .text
+    {
+        text-align: center;
+    }
+    .half-medium
+    {
+        padding-top: 1rem;
+    }
+}
+.list
+{
+    list-style: none;
+    .list-item
+    {
+        text-align: center;
+        padding: 1rem 5rem;
+        width: 50%;
+        margin: 0.5rem 2.5rem 0.5rem 0;
+    }
+}

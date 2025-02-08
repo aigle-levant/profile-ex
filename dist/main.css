@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+:root {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+  background-color: #0d192b;
+}
+
+a, a:hover, a:active, a:focus, a:visited {
+  text-decoration: none;
+}
+
+.p-1 {
+  padding: 0.75rem;
+}
+
+.p-2 {
+  padding: 1rem;
+}
+
+.p-3 {
+  padding: 2rem;
+}
+
+.p-4 {
+  padding: 2.5rem;
+}
+
+.p-5 {
+  padding: 3rem;
+}
+
+.medium {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.big {
+  font-size: 2rem;
+  font-weight: 650;
+}
+
+.small {
+  font-weight: 200;
+}
+
+#navbar, .list-item {
+  background-color: #0d192b;
+}
+
+.medium, #username {
+  color: #8bacda;
+}
+
+.title, .half-medium, .search-box, .submit-btn, .small,
+.link {
+  color: white;
+}
+
+.search-box {
+  background-color: white;
+}
+
+.card-container {
+  background-color: #14253d;
+}
+
+#footer .text {
+  color: #8bacda;
+}
+#footer .link {
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.--is-centered {
+  justify-content: center;
+  align-items: center;
+}
+
+.--is-full-width {
+  width: 100%;
+}
+
+.--is-rounded {
+  border-radius: 12px;
+}
+
+.--is-circle {
+  border-radius: 50%;
+}
+
+.--is-highlighted {
+  background-color: #2f415b;
+}
+
+.--has-no-border {
+  border: none;
+}
+
+#main {
+  padding: 1rem;
+}
+#main .title {
+  padding-bottom: 1rem;
+}
+
+.search-box {
+  margin-bottom: 4rem;
+}
+.search-box .btn {
+  background-color: #c9bdbd;
+}
+.search-box .btn.hover, .search-box .btn.focus {
+  background-color: #2f415b;
+}
+
+.card-container {
+  padding: 3rem 5rem;
+}
+.card-container .img {
+  width: 200px;
+  height: 200px;
+  margin-left: 4rem;
+}
+.card-container #username, .card-container .text {
+  text-align: center;
+}
+.card-container .half-medium {
+  padding-top: 1rem;
+}
+
+.list {
+  list-style: none;
+}
+.list .list-item {
+  text-align: center;
+  padding: 1rem 5rem;
+  width: 50%;
+  margin: 0.5rem 2.5rem 0.5rem 0;
+}
