@@ -28,10 +28,7 @@ function App() {
             path="/profile"
             element={user ? <Profile /> : <Navigate to="/" />}
           />
-          <Route
-            path="/compare"
-            element={user ? <Compare /> : <Navigate to="/" />}
-          />
+          <Route path="/compare" element={<Compare />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Route>
